@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplicacao.vc.Pagelogin">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="CenterAndExpand"
+                 Text="Bem vindo de volta por favor insira seus dados" FontSize="18" TextColor="black"/>
+            <StackLayout >
+                <Entry x:Name="name" HorizontalOptions="CenterAndExpand" TextColor="black" Margin="90" Placeholder="Primeiro e Último nome">
+                </Entry>
+
+                <Entry  x:Name="pw" HorizontalOptions="CenterAndExpand" TextColor="black" Margin="90" Placeholder="Palavra-passe" IsPassword="True">
+                </Entry>
+            </StackLayout>
+            <Button Margin="20" HeightRequest="40" x:Name="get" Text="teste12" Clicked="getdata"/>
+            <Label x:Name="textfield">"" </Label>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

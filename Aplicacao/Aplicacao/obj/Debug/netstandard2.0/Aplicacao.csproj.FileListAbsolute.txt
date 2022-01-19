@@ -1,0 +1,65 @@
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.deps.json
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfo.cs
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\Desktop\Prova de Aptidão profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfo.cs
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.deps.json
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\MainPage.xaml.g.cs
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tiago\Desktop\Prova de Aptidao profissional\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagelogin.xaml.g.cs
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\MainPage.xaml.g.cs
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagelogin.xaml.g.cs
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfo.cs
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.deps.json
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tiago\Desktop\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagenu.xaml.g.cs
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.deps.json
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.dll
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\ref\Aplicacao.dll
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.pdb
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.AssemblyReference.cache
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\MainPage.xaml.g.cs
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagelogin.xaml.g.cs
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagenu.xaml.g.cs
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfoInputs.cache
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfo.cs
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.CoreCompileInputs.cache
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.dll
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\ref\Aplicacao.dll
+D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.pdb
