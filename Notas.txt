@@ -1,0 +1,12 @@
+http://net-informations.com/q/faq/mysql.html
+https://docs.microsoft.com/en-us/dotnet/api/system.datetime.now?view=net-6.0
+https://www.techiedelight.com/get-current-time-without-date-csharp/
+https://stackoverflow.com/questions/510778/add-or-sum-of-hours-like-1330000020-133020-but-how https://www.youtube.com/watch?v=dmPp-bq7LEc
+
+https://www.codeproject.com/Articles/43438/Connect-C-to-MySQL
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/entry
+https://docs.microsoft.com/en-us/xamarin/essentials/geolocation?tabs=android
+
+
+
+passar dados:: https://www.youtube.com/watch?v=u6HdlCuGx7I

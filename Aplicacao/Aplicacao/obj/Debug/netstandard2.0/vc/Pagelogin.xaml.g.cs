@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Aplicacao.vc.Pagelogin.xaml", "vc/Pagelogin.xaml", typeof(global::Aplicacao.vc.Pagelogin))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Aplicacao.VC.Pagelogin.xaml", "VC/Pagelogin.xaml", typeof(global::Aplicacao.VC.Pagelogin))]
 
-namespace Aplicacao.vc {
+namespace Aplicacao.VC {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("vc\\Pagelogin.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("VC\\Pagelogin.xaml")]
     public partial class Pagelogin : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

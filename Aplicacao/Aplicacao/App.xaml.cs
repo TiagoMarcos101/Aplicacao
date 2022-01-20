@@ -1,4 +1,4 @@
-﻿using Aplicacao.vc;
+﻿using Aplicacao.VC;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;

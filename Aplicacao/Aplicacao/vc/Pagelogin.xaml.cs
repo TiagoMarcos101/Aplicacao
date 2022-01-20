@@ -7,7 +7,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Aplicacao.vc
+namespace Aplicacao.VC
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Pagelogin : ContentPage
@@ -22,18 +22,17 @@ namespace Aplicacao.vc
         {
             await Navigation.PushAsync(new MainPage(), true);
         }
-       async private void getdata(object sender, EventArgs e)
+        private void getdata(object sender, EventArgs e)
         {
             string text1 = name.Text;
             string text2 = pw.Text;
             if(text1 == "jose")
             {
-                if(text2 =="123")
-                {
                     textfield.Text = "deu certo";
-                    await Navigation.PushAsync(new MainPage(), true);
+                // await Navigation.PushAsync(new MainPage(), true);
+                Console.WriteLine("ola");
 
-                }
+                
             }
         }
     }

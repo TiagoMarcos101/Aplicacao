@@ -63,3 +63,37 @@ D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\X
 D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.dll
 D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\ref\Aplicacao.dll
 D:\Notas para a PAP\app\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.deps.json
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\MainPage.xaml.g.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagelogin.xaml.g.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagenu.xaml.g.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.deps.json
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\bin\Debug\netstandard2.0\Aplicacao.pdb
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\MainPage.xaml.g.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagelogin.xaml.g.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\vc\Pagenu.xaml.g.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.AssemblyInfo.cs
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.dll
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\ref\Aplicacao.dll
+C:\Users\Tiago\OneDrive\Ambiente de Trabalho\PAP\Aplicacao\Aplicacao\obj\Debug\netstandard2.0\Aplicacao.pdb
