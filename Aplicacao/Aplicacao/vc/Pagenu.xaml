@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplicacao.VC.Pagenu">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="CenterAndExpand" Text="Seja Bem vindo por favor insira seus dados" FontSize="18" TextColor="black"/>
+
+            <Entry x:Name="name2" TextColor="black" Margin="50" Placeholder="Primeiro e Último nome">
+            </Entry>
+
+            <Entry x:Name="pw2" TextColor="black" Margin="50" Placeholder="Palavra-passe" IsPassword="True">
+                
+            </Entry>
+            <Button x:Name="registbtn" Text="Registar-se" Clicked="getdata" >
+                
+            </Button>
+            <Label x:Name="credo"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
