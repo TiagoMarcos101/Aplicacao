@@ -2083,11 +2083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.iOS\\Aplicacao.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.iOS\\Aplicacao.iOS.csproj",
       "projectName": "Aplicacao.iOS",
-      "projectPath": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.iOS\\Aplicacao.iOS.csproj",
+      "projectPath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.iOS\\Aplicacao.iOS.csproj",
       "packagesPath": "C:\\Users\\Tiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2108,8 +2108,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj": {
-              "projectPath": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj"
+            "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj"
             }
           }
         }

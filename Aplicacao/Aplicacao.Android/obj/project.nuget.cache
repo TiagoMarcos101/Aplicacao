@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3D/mU6OPAmp64QYRtnOUfFSwPNqVqi03r0In+QTazSwtRRCuKILKE96wc40+h64zrYsAdMWaIoQZJVA+qC5+Nw==",
+  "dgSpecHash": "KVuOmZVcvmvLbAa8H/qXGAP68ZJSiP46j5monc8ZbnjPjDa6NzuakzkCCt0F9QMGEDu2I9fj+uuL8EAiA9W9dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\Aplicacao.Android.csproj",
+  "projectFilePath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\Aplicacao.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tiago\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
@@ -54,8 +54,8 @@
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.loader\\1.1.0.8\\xamarin.androidx.loader.1.1.0.8.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.localbroadcastmanager\\1.0.0.8\\xamarin.androidx.localbroadcastmanager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.media\\1.4.0.1\\xamarin.androidx.media.1.4.0.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.migration\\1.0.8\\xamarin.androidx.migration.1.0.8.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.multidex\\2.0.1.5\\xamarin.androidx.multidex.2.0.1.5.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.migration\\1.0.8\\xamarin.androidx.migration.1.0.8.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.multidex\\2.0.1.5\\xamarin.androidx.multidex.2.0.1.5.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.navigation.common\\2.3.5.1\\xamarin.androidx.navigation.common.2.3.5.1.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.navigation.runtime\\2.3.5.1\\xamarin.androidx.navigation.runtime.2.3.5.1.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.navigation.ui\\2.3.5.1\\xamarin.androidx.navigation.ui.2.3.5.1.nupkg.sha512",
@@ -75,7 +75,7 @@
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],
   "logs": []
 }

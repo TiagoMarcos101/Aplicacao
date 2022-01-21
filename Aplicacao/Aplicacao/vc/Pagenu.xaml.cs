@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Aplicacao.Model;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+using MySql.Data.MySqlClient;
 namespace Aplicacao.VC
 {
 
@@ -16,10 +16,7 @@ namespace Aplicacao.VC
     {
 
 
-        public void GetData(Dadosuser U)
-        {
 
-        }
 
         public Pagenu()
         {
@@ -31,10 +28,12 @@ namespace Aplicacao.VC
             string pass = pw2.Text;
             string fname = name2.Text;
 
-        
-                await Navigation.PushAsync(new Pagelogin(), true);
-            
-        }
 
+
+
+                
+                }
+      
     }
+       
 }

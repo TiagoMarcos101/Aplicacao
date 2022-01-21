@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VmhukvQ8+SmuaJkK9ZU91rSWY2knoNMjVJuNymyTeXaSA+YfRE0Kx1m/WfdJP0vtfUVIHlHkuCAkc8LZh0gHVA==",
+  "dgSpecHash": "vieOKfpxP1bqJS3tJQllbmBXlzYvK1Y8IZByF3n0GbVmaZCezvUALikaQBrODoUHHtfMthEmJJaEhy+c3kaK1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.iOS\\Aplicacao.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.iOS\\Aplicacao.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tiago\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",

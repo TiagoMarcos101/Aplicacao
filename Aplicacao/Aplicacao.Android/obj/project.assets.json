@@ -3778,11 +3778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\Aplicacao.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\Aplicacao.Android.csproj",
       "projectName": "Aplicacao.Android",
-      "projectPath": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\Aplicacao.Android.csproj",
+      "projectPath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\Aplicacao.Android.csproj",
       "packagesPath": "C:\\Users\\Tiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\obj\\",
+      "outputPath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3803,8 +3803,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj": {
-              "projectPath": "C:\\Users\\Tiago\\Desktop\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj"
+            "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj"
             }
           }
         }
