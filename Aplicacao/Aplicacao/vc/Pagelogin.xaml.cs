@@ -28,12 +28,11 @@ namespace Aplicacao.VC
             string text2 = pw.Text;
             if(text1 == "jose")
             {
-                if(text2 =="123")
-                {
                     textfield.Text = "deu certo";
-                    await Navigation.PushAsync(new MainPage(), true);
+                // await Navigation.PushAsync(new MainPage(), true);
+                Console.WriteLine("ola");
 
-                }
+                
             }
         }
     }

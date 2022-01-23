@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid11.0"
+          "monoandroid10.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid11.0": {
+          "monoandroid10.0": {
             "projectReferences": {
               "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj": {
                 "projectPath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao\\Aplicacao.csproj"
@@ -40,7 +40,7 @@
         }
       },
       "frameworks": {
-        "monoandroid11.0": {
+        "monoandroid10.0": {
           "dependencies": {
             "Xamarin.Essentials": {
               "target": "Package",
@@ -94,9 +94,9 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
-            "MySql.Data": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[8.0.27, )"
+              "version": "[2.1.2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

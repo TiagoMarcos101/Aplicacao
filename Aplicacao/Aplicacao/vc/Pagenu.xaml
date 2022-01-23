@@ -13,9 +13,8 @@
             <Entry x:Name="pw2" TextColor="black" Margin="50" Placeholder="Palavra-passe" IsPassword="True">
                 
             </Entry>
-            <Button x:Name="registbtn" Text="Registar-se" Clicked="getdata" >
-                
-            </Button>
+
+            <Button Margin="20" HeightRequest="40" x:Name="db" Text="Página n" Clicked="Mysqlconn"/>
             <Label x:Name="credo"></Label>
 
         </StackLayout>

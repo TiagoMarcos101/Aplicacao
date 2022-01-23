@@ -14,13 +14,13 @@ namespace Aplicacao.Model
             this.Pass = Pass;
         }
      
-        public string getNome() {
+        public string GetNome() {
             return Nome;
         }
         public void  SetNome(string Nome) {
             this.Nome = Nome;
         }
-        public string getPass()
+        public string GetPass()
         {
             return Pass;
         }

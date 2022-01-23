@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Aplicacao.VC.Pagenu.xaml", "VC/Pagenu.xaml", typeof(global::Aplicacao.VC.Pagenu))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Aplicacao.vc.Pagenu.xaml", "vc/Pagenu.xaml", typeof(global::Aplicacao.VC.Pagenu))]
 
 namespace Aplicacao.VC {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("VC\\Pagenu.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("vc\\Pagenu.xaml")]
     public partial class Pagenu : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -23,7 +23,7 @@ namespace Aplicacao.VC {
         private global::Xamarin.Forms.Entry pw2;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button registbtn;
+        private global::Xamarin.Forms.Button db;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Label credo;
@@ -33,7 +33,7 @@ namespace Aplicacao.VC {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Pagenu));
             name2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "name2");
             pw2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "pw2");
-            registbtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "registbtn");
+            db = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "db");
             credo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "credo");
         }
     }

@@ -1,27 +1,21 @@
-﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using Xamarin.Forms;
-
+using MySqlConnector;
 namespace Aplicacao.VC
 {
     public partial class MainPage : ContentPage
     {
+        
         public MainPage()
         {
-
-
             InitializeComponent();
-            ConnectToMySQL();
+
 
         }
         async private void Paglogin(object sender, EventArgs e)
         {
-            await  Navigation.PushAsync(new Pagelogin(), true);
+
+            await Navigation.PushAsync(new Pagenu(), true);
         }
         async private void Pagnu(object sender, EventArgs e)
         {
@@ -36,41 +30,35 @@ namespace Aplicacao.VC
         {
 
         }
-        static void ConnectToMySQL()
+        async private void Mysqlconn(object sender, EventArgs e)
         {
-            MySqlConnection conn = null;
-            var sb = new MySqlConnectionStringBuilder
-            {
-                Server = "127.0.0.1",
-                UserID = "root",
-                Password = "root",
-                Port = 3306,
-                Database = "universidade"
-            };
 
             try
             {
-                Console.WriteLine(sb.ConnectionString);
-                conn = new MySqlConnection(sb.ConnectionString);
-                conn.Open();
+                //This is my connection string i have assigned the database file address path  
+                string MyConnection2 = "Server = 127.0.0.1; Port = 3307; Database = universidade; Uid = root; Pwd = root";
+                //This is my insert query in which i am taking input from the user through windows forms  
+                //string Query = "insert into student.studentinfo(idStudentInfo,Name,Father_Name,Age,Semester) values('" + this.IdTextBox.Text + "','" + this.NameTextBox.Text + "','" + this.FnameTextBox.Text + "','" + this.AgeTextBox.Text + "','" + this.SemesterTextBox.Text + "');";
+                //This is  MySqlConnection here i have created the object and pass my connection string.  
+                MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
+                //This is command class which will handle the query and connection object.  
+               // MySqlCommand MyCommand2 = new MySqlCommand(Query, MyConn2);
+                MySqlDataReader MyReader2;
+                MyConn2.Open();
+               // MyReader2 = MyCommand2.ExecuteReader();     // Here our query will be executed and data saved into the database.  
+                Console.WriteLine("Save Data");
+              //  while (MyReader2.Read())
+             ///   {
+               // }
+                MyConn2.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
-                var cmd = conn.CreateCommand();
-                cmd.CommandText = "select * from test_table";
-                var reader = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
-                while (reader.Read())
-                {
-                    Console.WriteLine("id={0}, value={1}", reader.GetInt32("id"), reader.GetString("value"));
-                }
-            }
-            catch (MySqlException ex)
-            {
-                Console.Write(ex.Message);
-            }
-            finally
-            {
-                if (conn != null)
-                    conn.Close();
-            }
+
         }
+
     }
 }
