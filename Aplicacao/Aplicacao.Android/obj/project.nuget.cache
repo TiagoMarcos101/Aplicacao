@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LYRW0Q4jkV2gyWRPTz6Z2hsUSpr1bAPq84Sck1q6ewWo72OxQQeH2UevMPDWbMe+iRLVqqKLSc9mkBHGYLoabA==",
+  "dgSpecHash": "R7YhHI51cfeweIqRpErCBLppu/z3c6kl86xlLQvRlgPbs0sJYDZaLJqUJy7wUZhe75QBfojlgY5ywahYBvjDJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao\\Aplicacao.Android\\Aplicacao.Android.csproj",
+  "projectFilePath": "C:\\Users\\Tiago\\OneDrive\\Ambiente de Trabalho\\PAP\\Aplicacao\\Aplicacao.Android\\Aplicacao.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tiago\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
-    "C:\\Users\\Tiago\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Tiago\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

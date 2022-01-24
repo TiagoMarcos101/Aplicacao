@@ -14,15 +14,12 @@
         <Entry x:Name="name" HorizontalOptions="CenterAndExpand" TextColor="black" Margin="90" Placeholder="Primeiro e Último nome">
         </Entry>
 
-        <Button Margin="20" HeightRequest="40" x:Name="db" Text="Página n" Clicked="Mysqlconn"/>
-
+        <Button   HeightRequest="40" x:Name="Pagenu" Text="Não é registado? Registe-se aqui" Clicked="Pagnu"/>
 
         <Label Text="Espero que esteja a desfrutar da minha aplicação "
               />
-        <StackLayout  Margin="50" VerticalOptions="CenterAndExpand" >
             
-            <Button   HeightRequest="40" x:Name="Pagenu" Text="Não é registado? Registe-se aqui" Clicked="Pagnu"/>
-        </StackLayout>
+
     </StackLayout>
 
 </ContentPage>
