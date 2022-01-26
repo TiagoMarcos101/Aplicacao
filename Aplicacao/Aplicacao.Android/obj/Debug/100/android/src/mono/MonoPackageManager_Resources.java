@@ -4,9 +4,11 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Aplicacao.Android.dll" comes first in this list. */
 		"Aplicacao.Android.dll",
 		"Aplicacao.dll",
+		"DnsClient.dll",
 		"FormsViewGroup.dll",
-		"MySqlConnector.dll",
-		"System.Diagnostics.DiagnosticSource.dll",
+		"MongoDB.Bson.dll",
+		"MongoDB.Driver.Core.dll",
+		"MongoDB.Driver.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

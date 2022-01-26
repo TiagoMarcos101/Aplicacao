@@ -22,7 +22,7 @@ namespace Aplicacao.VC
         {
             await Navigation.PushAsync(new MainPage(), true);
         }
-       async private void getdata(object sender, EventArgs e)
+        private void getdata(object sender, EventArgs e)
         {
             string text1 = name.Text;
             string text2 = pw.Text;
