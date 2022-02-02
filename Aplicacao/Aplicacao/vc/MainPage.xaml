@@ -11,7 +11,7 @@
         <Label Text="Make changes to your XAML file and save to see yor UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
         <Button Margin="20" HeightRequest="40" x:Name="Pagelogin" Text="Página Login" Clicked="Paglogin"/>
 
-        <Button   HeightRequest="40" x:Name="Page" Text="Não? Registe-se aqui" Clicked="Mongoconn"/>
+        <Button   HeightRequest="40" x:Name="Page" Text="Conectar à Base de dados" Clicked="Mongoconn"/>
 
 
         <Button   HeightRequest="40" x:Name="Pagenu" Text="Não é registado? Registe-se aqui" Clicked="Pagnu"/>

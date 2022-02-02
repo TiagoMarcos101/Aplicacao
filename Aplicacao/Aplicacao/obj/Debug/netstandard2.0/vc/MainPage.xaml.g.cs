@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Aplicacao.VC.MainPage.xaml", "VC/MainPage.xaml", typeof(global::Aplicacao.VC.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Aplicacao.vc.MainPage.xaml", "vc/MainPage.xaml", typeof(global::Aplicacao.VC.MainPage))]
 
 namespace Aplicacao.VC {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("VC\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("vc\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

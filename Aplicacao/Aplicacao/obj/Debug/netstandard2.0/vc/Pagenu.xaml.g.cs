@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Aplicacao.VC.Pagenu.xaml", "VC/Pagenu.xaml", typeof(global::Aplicacao.VC.Pagenu))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Aplicacao.vc.Pagenu.xaml", "vc/Pagenu.xaml", typeof(global::Aplicacao.VC.Pagenu))]
 
 namespace Aplicacao.VC {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("VC\\Pagenu.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("vc\\Pagenu.xaml")]
     public partial class Pagenu : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -21,11 +21,7 @@ namespace Aplicacao.VC
         {
             InitializeComponent();
         }
-
-
-        
-        
-
+      
     }
     }
        
