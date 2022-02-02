@@ -7,7 +7,7 @@
         <StackLayout>
             <Label HorizontalOptions="CenterAndExpand" Text="Seja Bem vindo por favor insira seus dados" FontSize="18" TextColor="black"/>
 
-            <Entry x:Name="name2" TextColor="black" Margin="50" Placeholder="Primeiro e Último nome">
+            <Entry x:Name="name" TextColor="black" Margin="50" Placeholder="Primeiro e Último nome">
             </Entry>
 
             <Entry x:Name="pw2" TextColor="black" Margin="50" Placeholder="Palavra-passe" IsPassword="True">

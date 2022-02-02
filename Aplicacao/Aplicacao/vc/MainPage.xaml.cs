@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
-using MongoDB.Driver;
 using Aplicacao;
+
 namespace Aplicacao.VC
 {
     public partial class MainPage : ContentPage
@@ -12,6 +12,11 @@ namespace Aplicacao.VC
             InitializeComponent();
 
 
+        }
+        protected override async void OnAppearing()
+        {
+            CollectionView collectionview = new CollectionView();            base.OnAppearing();
+            collectionview.ItemsSource = await App.Database.GetUserAsync();
         }
         async private void Paglogin(object sender, EventArgs e)
         {
@@ -27,26 +32,10 @@ namespace Aplicacao.VC
 
         }
 
-        private void Mongoconn(object sender, EventArgs e)
+        private void DB(object sender, EventArgs e)
         {
-            try
-            {
 
-
-                ConnectMongoDB c = new ConnectMongoDB();
-                c.ConnectToMongoService();
-                Console.WriteLine("Connected To MongoDB");
-                
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine("Shit Happened");
-                Console.WriteLine(ex.ToString());
-            }
 
         }
-
-
-
     }
 }
