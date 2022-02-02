@@ -15,7 +15,8 @@ namespace Aplicacao.VC
         }
         protected override async void OnAppearing()
         {
-            CollectionView collectionview = new CollectionView();            base.OnAppearing();
+            base.OnAppearing();
+            CollectionView collectionview = new CollectionView();            
             collectionview.ItemsSource = await App.Database.GetUserAsync();
         }
         async private void Paglogin(object sender, EventArgs e)

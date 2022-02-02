@@ -23,7 +23,53 @@ namespace Aplicacao.VC
             InitializeComponent();
         }
 
-      
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            CollectionView collectionview = new CollectionView();
+            collectionview.ItemsSource = await App.Database.GetUserAsync();
+        }
+        async void Getandsetdata(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(name.Text) && !string.IsNullOrWhiteSpace(passWd.Text))
+                {
+                await App.Database.SaveUserAsync(new SQLDB
+                {
+                    Fname = name.Text;
+                Passwd = passWd.Text;
+
+
+            });
+       
+
+
+
+
+                }
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        }
+
+
     }
     }
        

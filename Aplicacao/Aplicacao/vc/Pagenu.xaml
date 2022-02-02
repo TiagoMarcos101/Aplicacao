@@ -10,7 +10,7 @@
             <Entry x:Name="name" TextColor="black" Margin="50" Placeholder="Primeiro e Último nome">
             </Entry>
 
-            <Entry x:Name="pw2" TextColor="black" Margin="50" Placeholder="Palavra-passe" IsPassword="True">
+            <Entry x:Name="passWd" TextColor="black" Margin="50" Placeholder="Palavra-passe" IsPassword="True">
                 
             </Entry>
 
