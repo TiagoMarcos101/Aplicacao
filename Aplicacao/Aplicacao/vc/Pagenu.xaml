@@ -13,9 +13,22 @@
             <Entry x:Name="passWd" TextColor="black" Margin="50" Placeholder="Palavra-passe" IsPassword="True">
                 
             </Entry>
+            <Label Text="Hello"></Label>
 
-            <Label x:Name="credo"></Label>
+            <CollectionView x:Name="collectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Entry Text="{Binding Fname}"></Entry>
+                            <Entry Text="{Binding Passwd}"></Entry>
 
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button Margin="20" HeightRequest="40" x:Name="Pagelogin" Text="Set" Clicked="Getandsetdata"/>
+
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

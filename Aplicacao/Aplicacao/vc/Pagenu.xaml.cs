@@ -31,42 +31,52 @@ namespace Aplicacao.VC
         }
         async void Getandsetdata(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(name.Text) && !string.IsNullOrWhiteSpace(passWd.Text))
+            try {             CollectionView collectionview = new CollectionView();
+                if (!string.IsNullOrWhiteSpace(name.Text) && !string.IsNullOrWhiteSpace(passWd.Text))
                 {
-                await App.Database.SaveUserAsync(new SQLDB
-                {
-                    Fname = name.Text;
-                Passwd = passWd.Text;
+                    await App.Database.SaveUserAsync(new SQLDB
+                    {
+                        Passwd = passWd.Text,
+                        Fname = name.Text
 
 
-            });
-       
+                    });
+                    name.Text = string.Empty;
+                    passWd.Text = string.Empty;
+                    collectionview.ItemsSource = await App.Database.GetUserAsync();
+               
+
 
 
 
 
                 }
-       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+                }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
 
