@@ -1,4 +1,0 @@
-criação do projeto;
-criação das vistas;
-connectando a aplicação à Base de Dados
-https://www.youtube.com/watch?v=YCTpDgFhZFw 
