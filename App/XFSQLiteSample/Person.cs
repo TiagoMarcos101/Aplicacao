@@ -7,6 +7,11 @@ namespace XFSQLiteSample
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string Name { get; set; }
-        public bool Subscribed { get; set; }
-    }
+        public string Pass { get; set; }
+        public bool LugOc { get; set; }
+        public string QuantCoz { get; set; }
+        public string TipoCoz { get; set; }
+
+
+}
 }

@@ -6,7 +6,7 @@
         <StackLayout Margin="20,35,20,20">
             <Entry x:Name="nameEntry"
                Placeholder="Enter name" />
-            <CheckBox x:Name="subscribed" />
+            <Entry x:Name="password" />
             <Button Text="Add to Database"
                 Clicked="OnButtonClicked" />
             <CollectionView x:Name="collectionView">
@@ -15,7 +15,7 @@
                         <StackLayout>
                             <Label Text="{Binding Name}"
                                FontSize="Medium" />
-                            <Label Text="{Binding Subscribed}"
+                            <Label Text="{Binding Pass}"
                                TextColor="Silver"
                                FontSize="Small" />
                         </StackLayout>

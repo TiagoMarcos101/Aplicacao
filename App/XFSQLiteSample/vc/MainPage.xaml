@@ -6,10 +6,11 @@
     <StackLayout>
         <Label HorizontalOptions="CenterAndExpand" Text="Ges Cozidos" FontSize="50" ></Label>
         <Label Text="Já está registado? Então faça login" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
-        <Button Text="Inicie Sessão"></Button>
+        <Button Text="Inicie Sessão"  Clicked="Pagelogbtn"></Button>
         <Label Margin="0,250,0,0"  Text="É novo na aplicação? Então registe-se" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
         <Button Text=" Registe-se"  Clicked="Pagenubtn"></Button>
-         
+        <Label Margin="0,0,0,0"  Text="É Admin na aplicação? Então entre aqui" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
+        <Button Text="Admin" Clicked="PageAdm" ></Button>
     </StackLayout>
 
 

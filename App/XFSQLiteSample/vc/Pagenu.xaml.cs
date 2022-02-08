@@ -29,14 +29,16 @@ namespace XFSQLiteSample.vc
                 await App.Database.SavePersonAsync(new Person
                 {
                     Name = nameEntry.Text,
-                    Subscribed = subscribed.IsChecked
+                    Pass = password.Text
                 });
 
                 nameEntry.Text = string.Empty;
-                subscribed.IsChecked = false;
+                password.Text = string.Empty;
 
                 collectionView.ItemsSource = await App.Database.GetPeopleAsync();
+
             }
+            
         }
     }
 }
