@@ -25,11 +25,7 @@ namespace XFSQLiteSample.vc
         {
             await Navigation.PushAsync(new PageLog(), true); 
         }
-        async private void PageAdm(object sender, EventArgs e)
-        {
-            DisplayAlert("", "Atenção esta página é só para admins", "Compreendo");
-            await Navigation.PushAsync(new PageVefAdm(), true);
-        }
+        
 
     }
 }

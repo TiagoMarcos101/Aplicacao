@@ -19,6 +19,8 @@
                 </Picker.ItemsSource>
             </Picker>
             <Button Margin="0,0,0,0" Text="Login" Clicked="Login"></Button>
+            <Label Margin="0,0,0,0"  Text="É Admin na aplicação? Então entre aqui" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
+            <Button Text="Admin" Clicked="PageAdm" ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

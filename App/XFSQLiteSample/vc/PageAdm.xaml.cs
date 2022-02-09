@@ -57,11 +57,15 @@ namespace XFSQLiteSample.vc
                 await DisplayAlert("Erro", "Por favor selecione algum utilizador para apagar", "Ok");
             }
         }
-        // Quem tem cozidos
-        private void Button_Clicked_3(object sender, EventArgs e)
+        // Quem tem cozidos AGR mostra os nomes de todos os utlizadores
+       async private void Button_Clicked_3(object sender, EventArgs e)
         {
-
-        }
+            collectionView.ItemsSource = await App.Database.Query2Async();
+            
+                
+                
+                
+                }
         // Quem não tem cozidos
         private void Button_Clicked_4(object sender, EventArgs e)
         {

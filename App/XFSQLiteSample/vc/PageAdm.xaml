@@ -6,14 +6,16 @@
         <StackLayout>
             
             <Label Margin="0,30,0,0" HorizontalOptions="CenterAndExpand" Text="Aqui tem todos os dados de todos os utilizadores disponiveis"></Label>
-            <Entry x:Name="nomeUSR" Placeholder="Nome de Utilizador" Margin="0,100,0,0"></Entry>
+            <Entry x:Name="nomeUSR" Placeholder="Nome de Utilizador" Margin="0,0,0,0"></Entry>
 
             <CollectionView x:Name="collectionView" SelectionMode="Single" SelectionChanged="collectionView_SelectionChanged" >
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
-                            <Label Text="{Binding Name}"
-                               FontSize="Medium" />
+                            <Label Text="{Binding Name}" FontSize="Medium" />
+                            <Label Text="{Binding LugOc}" FontSize="Medium" />
+                            <Label Text="{Binding QuantCoz}" FontSize="Medium" />
+                            <Label Text="{Binding TipoCoz}" FontSize="Medium" />
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

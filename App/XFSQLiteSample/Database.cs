@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using SQLite;
 
@@ -6,8 +7,8 @@ namespace XFSQLiteSample
 {
     public class Database
     {
+       
         private readonly SQLiteAsyncConnection _database;
-
         public Database(string dbPath)
         {
             _database = new SQLiteAsyncConnection(dbPath);
@@ -31,5 +32,19 @@ namespace XFSQLiteSample
         {
             return _database.DeleteAsync(person);
         }
+        public Task<List<Person>> QuerydbAsync()
+            {
+
+           return _database.QueryAsync<Person>("SELECT * FROM Person");
+
+            }
+        public Task<List<Person>> Query2Async()
+        {
+            var getdata = _database.QueryAsync<Person>("SELECT * FROM Person");
+            Console.WriteLine(getdata);
+            return getdata;
+
+        }
+
     }
 }

@@ -30,17 +30,27 @@ namespace XFSQLiteSample.vc
                 await App.Database.SavePersonAsync(new Person
                 {
                     Name = nomeUSR.Text,
-                    Pass = passUSR.Text
+                    Pass = passUSR.Text,
+                    QuantCoz = quantCozid.Text,
+                    TipoCoz = combobox.SelectedIndex
                 });
 
                 nomeUSR.Text = string.Empty;
                 passUSR.Text = string.Empty;
+                quantCozid.Text = string.Empty;
+                
+                
 
                 collectionView.ItemsSource = await App.Database.GetPeopleAsync();
             }else
             {
               await  DisplayAlert("Erro", "Por Favor insira os seus dados de login", "Tentar de novamente");
             }
+        }
+        async private void PageAdm(object sender, EventArgs e)
+        {
+           await DisplayAlert("", "Atenção esta página é só para admins", "Compreendo");
+            await Navigation.PushAsync(new PageVefAdm(), true);
         }
     }
 }

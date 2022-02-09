@@ -5,23 +5,11 @@
     <ContentPage.Content>
         <StackLayout Margin="20,35,20,20">
             <Entry x:Name="nameEntry"
-               Placeholder="Enter name" />
-            <Entry x:Name="password" />
-            <Button Text="Add to Database"
+               Placeholder="Digite seu nome de utilizador" />
+            <Entry x:Name="password" Placeholder="Digite sua palavra-passe" />
+            <Button Text="Registar"
                 Clicked="OnButtonClicked" />
-            <CollectionView x:Name="collectionView">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Label Text="{Binding Name}"
-                               FontSize="Medium" />
-                            <Label Text="{Binding Pass}"
-                               TextColor="Silver"
-                               FontSize="Small" />
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

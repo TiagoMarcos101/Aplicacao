@@ -24,6 +24,7 @@ namespace XFSQLiteSample.vc
             if(!string.IsNullOrWhiteSpace(pass.Text) && pass.Text == "7214")
             {
                 await Navigation.PushAsync(new PageAdm(), true);
+                pass.Text = string.Empty;
 
             }else
             {
