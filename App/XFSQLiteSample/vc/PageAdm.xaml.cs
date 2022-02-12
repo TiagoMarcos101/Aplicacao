@@ -67,14 +67,11 @@ namespace XFSQLiteSample.vc
                 
                 }
         // Quem não tem cozidos
-        private void Button_Clicked_4(object sender, EventArgs e)
+       async private void Button_Clicked_4(object sender, EventArgs e)
         {
+            collectionView.ItemsSource = await App.Database.Query3Async();
 
         }
-        //Apagar todos os utlizadores da tabela (APAGA TODOS OS DADOS CUIDADO)
-        private void Button_Clicked_5(object sender, EventArgs e)
-        {
 
-        }
     }
 }

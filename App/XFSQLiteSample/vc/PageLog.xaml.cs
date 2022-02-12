@@ -34,10 +34,10 @@ namespace XFSQLiteSample.vc
                     QuantCoz = quantCozid.Text,
                     TipoCoz = combobox.SelectedIndex
                 });
-
                 nomeUSR.Text = string.Empty;
                 passUSR.Text = string.Empty;
                 quantCozid.Text = string.Empty;
+                combobox.SelectedIndex = -1;
                 
                 
 
@@ -50,7 +50,7 @@ namespace XFSQLiteSample.vc
         async private void PageAdm(object sender, EventArgs e)
         {
            await DisplayAlert("", "Atenção esta página é só para admins", "Compreendo");
-            await Navigation.PushAsync(new PageVefAdm(), true);
+           await Navigation.PushAsync(new PageVefAdm(), true);
         }
     }
 }
