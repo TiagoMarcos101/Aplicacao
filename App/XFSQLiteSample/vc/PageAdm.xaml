@@ -13,7 +13,6 @@
                     <DataTemplate>
                         <StackLayout>
                             <Label Text="{Binding Name}" FontSize="Medium" />
-                            <Label Text="{Binding LugOc}" FontSize="Medium" />
                             <Label Text="{Binding QuantCoz}" FontSize="Medium" />
                             <Label Text="{Binding TipoCoz}" FontSize="Medium" />
                         </StackLayout>

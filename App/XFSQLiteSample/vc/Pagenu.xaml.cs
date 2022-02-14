@@ -28,7 +28,6 @@ namespace XFSQLiteSample.vc
                 await App.Database.SavePersonAsync(new Person
                 {
                     Name = nameEntry.Text,
-                    Pass = password.Text
                 });
 
                 nameEntry.Text = string.Empty;
