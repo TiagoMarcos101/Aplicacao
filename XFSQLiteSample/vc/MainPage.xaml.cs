@@ -25,7 +25,7 @@ namespace XFSQLiteSample.vc
         {
             await Navigation.PushAsync(new PageLog(), true); 
         }
-
+        
 
     }
 }

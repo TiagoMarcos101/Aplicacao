@@ -16,10 +16,9 @@ namespace XFSQLiteSample.vc
         {
             InitializeComponent();
         }
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             base.OnAppearing();
-            collectionView.ItemsSource = await App.Database.GetPeopleAsync();
         }
 
         async void OnButtonClicked(object sender, EventArgs e)
@@ -29,14 +28,14 @@ namespace XFSQLiteSample.vc
                 await App.Database.SavePersonAsync(new Person
                 {
                     Name = nameEntry.Text,
-                    Pass = password.Text
                 });
 
                 nameEntry.Text = string.Empty;
                 password.Text = string.Empty;
 
-                collectionView.ItemsSource = await App.Database.GetPeopleAsync();
+
             }
+            
         }
     }
 }
