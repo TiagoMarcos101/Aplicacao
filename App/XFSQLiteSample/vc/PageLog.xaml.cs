@@ -25,7 +25,7 @@ namespace XFSQLiteSample.vc
 
         async void Login(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(nomeUSR.Text) && !string.IsNullOrWhiteSpace(passUSR.Text) && !string.IsNullOrWhiteSpace(quantCozid.Text))
+            if (!string.IsNullOrWhiteSpace(nomeUSR.Text)  && !string.IsNullOrWhiteSpace(quantCozid.Text))
             {
                 await App.Database.SavePersonAsync(new Person
                 {
@@ -34,7 +34,6 @@ namespace XFSQLiteSample.vc
                     TipoCoz = combobox.SelectedIndex
                 });
                 nomeUSR.Text = string.Empty;
-                passUSR.Text = string.Empty;
                 quantCozid.Text = string.Empty;
                 combobox.SelectedIndex = -1;
 

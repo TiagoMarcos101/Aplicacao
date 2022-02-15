@@ -7,7 +7,6 @@
         <StackLayout>
             <Label Margin="0,50,0,0" HorizontalOptions="CenterAndExpand"  Text="Por Favor insira seus dados de login" FontSize="20" ></Label>
             <Entry x:Name="nomeUSR" Placeholder="Nome de Utilizador" Margin="0,0,0,0"></Entry>
-            <Entry x:Name="passUSR" IsPassword="True" Placeholder="Palavra-Passe" Margin="0,0,0,0"></Entry>
             <Entry x:Name="quantCozid" Placeholder="Quantos cozidos deseja fazer" Margin="0,0,0,0"></Entry>
             <Picker x:Name="combobox"
              Title="Selecione um cozido">
