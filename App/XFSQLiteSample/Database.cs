@@ -40,10 +40,10 @@ namespace XFSQLiteSample
         }
         public Task<List<Person>> Query3Async()
         {
-            return _database.QueryAsync<Person>("SELECT Name FROM Person Where QuantCoz = 0");
+            return _database.QueryAsync<Person>("SELECT Name FROM Person Where QuantCoz = 0");       
 
         }
-
+         
 
     }
 }
