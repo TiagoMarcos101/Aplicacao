@@ -3,11 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFSQLiteSample.vc.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="White" >
         <Label HorizontalOptions="CenterAndExpand" Text="Ges Cozidos" FontSize="50" ></Label>
-        <Label Text="Já está registado? Então faça login" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
+        <Label Text=" Faça login para marcar um cozido" Margin="0,70,0,0" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
         <Button Text="Inicie Sessão"  Clicked="Pagelogbtn"></Button>
-        <Label Margin="0,250,0,0"  Text="É novo na aplicação? Então registe-se" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
-        <Button Text=" Registe-se"  Clicked="Pagenubtn"></Button>
+        <Image Margin="0,50,0,0" Source="img1.png"></Image> 
     </StackLayout>
 </ContentPage>

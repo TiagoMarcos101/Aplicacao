@@ -15,7 +15,11 @@ namespace XFSQLiteSample.vc
         {
         InitializeComponent();
         }
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
 
+        }
 
         async private void Pagenubtn(object sender, EventArgs e)
         {

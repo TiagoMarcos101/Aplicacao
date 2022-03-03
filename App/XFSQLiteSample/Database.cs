@@ -31,6 +31,7 @@ namespace XFSQLiteSample
         public Task<int> DeletePersonAsync(Person person)
         {
             return _database.DeleteAsync(person);
+            
         }
        
         public Task<List<Person>> Query2Async()
@@ -38,12 +39,30 @@ namespace XFSQLiteSample
             return _database.QueryAsync<Person>("SELECT Name FROM Person Where QuantCoz >= 1");
 
         }
+
         public Task<List<Person>> Query3Async()
         {
             return _database.QueryAsync<Person>("SELECT Name FROM Person Where QuantCoz = 0");       
 
         }
-         
+        
+        public Task<List<Person>> GetUserAsync(string variable)
+        {
+              return  _database.QueryAsync<Person>("SELECT Name,QuantCoz,TipoCoz,Time FROM Person WHERE Name = (?) ",variable);
+        }
+        public Task<List<Person>> GetNameAsync(string namevariable)
+        {
+            return _database.QueryAsync<Person>("SELECT Name FROM Person WHERE Name = (?) ", namevariable);
+        }
+
+        public Task<List<Person>> Countcoz()
+        {
+            return _database.QueryAsync<Person>("COUNT QuantCoz FROM Person");
+                
+        }
+
+
+
 
     }
 }

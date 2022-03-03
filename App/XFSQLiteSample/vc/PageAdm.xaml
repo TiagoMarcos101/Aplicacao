@@ -12,17 +12,23 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
+                            <Label Text="Nome de utilizador" FontSize="Large" />
                             <Label Text="{Binding Name}" FontSize="Medium" />
+                            <Label Text="Quantidade de cozidos" FontSize="Large" />
                             <Label Text="{Binding QuantCoz}" FontSize="Medium" />
+                            <Label Text="Tipo de cozido" FontSize="Large" />
                             <Label Text="{Binding TipoCoz}" FontSize="Medium" />
+                            <Label Text="--Próximo utilizador-" FontSize="Large" />
+
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            <Button Margin="0,30,0,0" Text="Atualizar utilizador" Clicked="Button_Clicked_1"></Button>
-            <Button Margin="0,5,0,0" Text="Apagar utlizador" Clicked="Button_Clicked_2"></Button>
-            <Button Margin="0,5,0,0" Text="Quem tem um cozinhado a cozer" Clicked="Button_Clicked_3"></Button>
-            <Button Margin="0,5,0,0" Text="Quem não um cozinhado a cozer" Clicked="Button_Clicked_4"></Button>
+            <Button Margin="0,0,0,0" Text="Atualizar utilizador" Clicked="Button_Clicked_1"></Button>
+            <Button Margin="0,0,0,0" Text="Apagar utlizador" Clicked="Button_Clicked_2"></Button>
+            <Button Margin="0,0,0,0" Text="Quem tem um cozinhado a cozer" Clicked="Button_Clicked_3"></Button>
+            <Button Margin="0,0,0,0" Text="Quem não um cozinhado a cozer" Clicked="Button_Clicked_4"></Button>
+            <Entry x:Name="numcoz"></Entry>
 
 
         </StackLayout>

@@ -69,6 +69,6 @@ namespace XFSQLiteSample.vc
             collectionView.ItemsSource = await App.Database.Query3Async();
 
         }
-
+    
     }
 }

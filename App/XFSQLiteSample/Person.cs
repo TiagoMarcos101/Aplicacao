@@ -9,6 +9,8 @@ namespace XFSQLiteSample
         public string Name { get; set; }
         public string QuantCoz { get; set; }
         public int TipoCoz { get; set; }
+        
+        public string Time { get; set; }
 
 
 }
