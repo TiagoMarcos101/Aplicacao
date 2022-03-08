@@ -16,5 +16,10 @@ namespace XFSQLiteSample.vc
         {
             InitializeComponent();
         }
+
+      async  private void Button_Clicked(object sender, EventArgs e)
+        {
+            collectionView.ItemsSource = await App.Database.GetCountcoz();
+        }
     }
 }

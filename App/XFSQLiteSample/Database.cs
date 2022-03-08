@@ -42,7 +42,7 @@ namespace XFSQLiteSample
 
         public Task<List<Person>> Query3Async()
         {
-            return _database.QueryAsync<Person>("SELECT Name FROM Person Where QuantCoz = 0");       
+            return _database.QueryAsync<Person>("SELECT Name FROM Person Where QuantCoz = 0");
 
         }
         
@@ -55,10 +55,11 @@ namespace XFSQLiteSample
             return _database.QueryAsync<Person>("SELECT Name FROM Person WHERE Name = (?) ", namevariable);
         }
 
-        public Task<List<Person>> Countcoz()
+        public Task<List<Person>> GetCountcoz()
         {
-            return _database.QueryAsync<Person>("COUNT QuantCoz FROM Person");
-                
+            return _database.QueryAsync<Person>("SELECT count(QuantCoz) FROM Person; ");
+
+
         }
 
 

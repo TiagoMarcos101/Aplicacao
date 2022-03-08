@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFSQLiteSample.vc.PageVefAdm">
     <ContentPage.Content>
-        <StackLayout>
-            <Entry x:Name="pass" IsPassword="True" Placeholder="Insira a palavra passe de administrador"></Entry>
+        <StackLayout  BackgroundColor="#3EB489">
+            <Entry TextColor="White" Margin="0,50,0,0" x:Name="pass" IsPassword="True" Placeholder="Insira a palavra passe de administrador"></Entry>
             <Button Text="Entrar como Admin" Clicked="Button_Clicked_1"></Button>
-
+            <Image HeightRequest="400" Margin="0,0,0,0" Source="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11330882.jpg"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

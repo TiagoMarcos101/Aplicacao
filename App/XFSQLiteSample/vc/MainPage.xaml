@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFSQLiteSample.vc.MainPage">
 
-    <StackLayout BackgroundColor="White" >
-        <Label HorizontalOptions="CenterAndExpand" Text="Ges Cozidos" FontSize="50" ></Label>
-        <Label Text=" Faça login para marcar um cozido" Margin="0,70,0,0" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
+    <StackLayout BackgroundColor="#3EB489" >
+        <Label TextColor="White" HorizontalOptions="CenterAndExpand" Text="Ges Cozidos" FontSize="50" ></Label>
+        <Label TextColor="White" Text=" Faça login para marcar um cozido" Margin="0,70,0,0" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
         <Button Text="Inicie Sessão"  Clicked="Pagelogbtn"></Button>
         <Image Margin="0,50,0,0" Source="img1.png"></Image> 
     </StackLayout>

@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFSQLiteSample.vc.PageUservef">
     <ContentPage.Content>
-        <StackLayout>
-            <Entry x:Name="nameUSR" Margin="0,30,0,0" Placeholder="Coloque aqui o seu nome de utilizador"></Entry>
+        <StackLayout  BackgroundColor="#3EB489">
+            <Entry  TextColor="White" x:Name="nameUSR" Margin="0,30,0,0" Placeholder="Coloque aqui o seu nome de utilizador"></Entry>
             <Button Text="Verifique seus dados" Clicked="Button_Clicked"></Button>
             <StackLayout>
 
@@ -12,19 +12,21 @@
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <StackLayout>
-                                <Label Text="Nome de utilizador"></Label>
-        
-                                <Label Text="{Binding Name}" FontSize="Medium" />
-                                <Label Text="Quantidade de cozidos"></Label>
-                                <Label Text="{Binding QuantCoz}" FontSize="Medium" />
-                                <Label Text="Tipo de cozidos sendo 0 cozido e 1 caldeirada"></Label>
-                                <Label Text="{Binding TipoCoz}" FontSize="Medium" />
-                                <Label Text="Hora que o cozido foi inserido"></Label>
-                                <Label Text="{Binding Time}" FontSize="Medium" />
+                                <Label TextColor="White" Text="Nome de utilizador"></Label>
+
+                                <Label TextColor="White" Text="{Binding Name}" FontSize="Medium" />
+                                <Label TextColor="White" Text="Quantidade de cozidos"></Label>
+                                <Label TextColor="White" Text="{Binding QuantCoz}" FontSize="Medium" />
+                                <Label TextColor="White" Text="Tipo de cozidos sendo 0 cozido e 1 caldeirada"></Label>
+                                <Label TextColor="White" Text="{Binding TipoCoz}" FontSize="Medium" />
+                                <Label TextColor="White" Text="Hora que o cozido foi inserido"></Label>
+                                <Label TextColor="White" Text="{Binding Time}" FontSize="Medium" />
                             </StackLayout>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
+                <Image  Margin="0,0,0,0" Source="https://i.ytimg.com/vi/K85G4iSF19Q/maxresdefault.jpg"></Image>
+
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

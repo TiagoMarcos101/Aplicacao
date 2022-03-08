@@ -4,9 +4,22 @@
              x:Class="XFSQLiteSample.vc.Pagemoreinfo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <CollectionView x:Name="collectionView"  >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="Informação pedida" FontSize="Large" />
+                            <Label Text="{Binding Name}" FontSize="Medium" />
+                            <Label Text="{Binding QuantCoz}" FontSize="Medium" />
+                            <Label Text="{Binding TipoCoz}" FontSize="Medium" />
+                            <Label Text="{Binding Time}" FontSize="Medium" />
+
+
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button Text="numero de cozidos" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
