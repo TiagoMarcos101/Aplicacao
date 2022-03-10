@@ -19,9 +19,11 @@ namespace XFSQLiteSample.vc
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            DisplayAlert("Aviso", "Caso não encontre o seu nome de utilizador contacte o administrador ", "Compreendo");
+
         }
 
-       async private void Button_Clicked(object sender, EventArgs e)
+        async private void Button_Clicked(object sender, EventArgs e)
         {
             if (nameUSR != null)
             {

@@ -14,9 +14,11 @@ namespace XFSQLiteSample.vc
         public MainPage()
         {
         InitializeComponent();
+            
         }
-        protected override async void OnAppearing()
+        protected override  void OnAppearing()
         {
+
             base.OnAppearing();
 
         }

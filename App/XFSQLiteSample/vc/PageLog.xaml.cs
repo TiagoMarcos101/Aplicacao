@@ -17,25 +17,26 @@ namespace XFSQLiteSample.vc
         {
             InitializeComponent();
         }
-        protected override async void OnAppearing()
+        protected override  void OnAppearing()
         {
             base.OnAppearing();
-            collectionView.ItemsSource = await App.Database.GetPeopleAsync();
         }
 
         async void Login(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(nomeUSR.Text)  && !string.IsNullOrWhiteSpace(quantCozid.Text) && quantCozid.Text != "0")
+            
+            string tipocoz = combobox.SelectedIndex.ToString();
+            if (!string.IsNullOrWhiteSpace(nomeUSR.Text)  && !string.IsNullOrWhiteSpace(quantCozid.Text) && quantCozid.Text != "0" )
             {
-                
-                
+            
                 await App.Database.SavePersonAsync(new Person
                 {
-                    Name = nomeUSR.Text, 
+                    Name = nomeUSR.Text,
                     QuantCoz = Int16.Parse(quantCozid.Text),
                     TipoCoz = combobox.SelectedIndex,
                     Time = DateTime.Now.ToString("hh:mm:ss tt")
             });
+                await DisplayAlert("Aviso", "Atenção ao registar seus dados, quando for verificar, saiba que se colocar letras maiúsculas, acentos ou caracteres especiais vai ter que os colocar ", "Compreendo");
                 nomeUSR.Text = string.Empty;
                 quantCozid.Text = string.Empty;
                 combobox.SelectedIndex = -1;

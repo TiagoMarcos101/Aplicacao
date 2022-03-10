@@ -4,11 +4,11 @@
              x:Class="XFSQLiteSample.vc.PageLog">
     
     <ContentPage.Content>
-        <StackLayout  BackgroundColor="#3EB489">
-            <Label TextColor="White" Margin="0,50,0,0" HorizontalOptions="CenterAndExpand"  Text="Por Favor insira seus dados de login" FontSize="20" ></Label>
-            <Entry TextColor="White" x:Name="nomeUSR" Placeholder="Nome de Utilizador" Margin="0,0,0,0"></Entry>
-            <Entry TextColor="White" x:Name="quantCozid" Placeholder="Quantos cozidos deseja fazer" Margin="0,0,0,0"></Entry>
-            <Picker TextColor="White" x:Name="combobox"
+        <StackLayout  BackgroundColor="#b7ffff">
+            <Label  TextColor="Black" Margin="0,50,0,0" HorizontalOptions="CenterAndExpand"  Text="Insira seus dados para registar seu cozido" FontSize="20" ></Label>
+            <Entry  PlaceholderColor="Black" TextColor="Black" IsSpellCheckEnabled="False" x:Name="nomeUSR" Placeholder="Nome de Utilizador" Margin="0,0,0,0"></Entry>
+            <Entry PlaceholderColor="Black" TextColor="Black" x:Name="quantCozid" Placeholder="Quantos cozidos deseja fazer" Margin="0,0,0,0"></Entry>
+            <Picker  TextColor="Black" x:Name="combobox"
              Title="Selecione um cozido">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
@@ -17,11 +17,11 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <Button Margin="0,50,0,0" Text="Login" Clicked="Login"></Button>
-            <Label FontSize="20" Text="Já fez login entre aqui para ver seus dados" HorizontalOptions="CenterAndExpand"></Label>
-            <Button  Margin="0,50,0,0" Text="Veja seus dados" Clicked="Button_Clicked"></Button>
-            <Label Margin="0,50,0,0"  Text="É Admin na aplicação? Então entre aqui" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
-            <Button Text="Admin" Clicked="PageAdm" ></Button>
+            <Button TextColor="black" Background = "White" Margin="10,90,10,0" Text="Registar cozido" Clicked="Login"></Button>
+            <Label TextColor="black" Margin="0,5,0,0" FontSize="20" Text="Já fez login entre aqui para ver seus dados" HorizontalOptions="CenterAndExpand"></Label>
+            <Button Margin="10,0,10,0" Background = "White" TextColor="black"  Text="Veja seus dados" Clicked="Button_Clicked"></Button>
+            <Label  TextColor="black" Margin="0,5,0,0"  Text="É Admin na aplicação? Então entre aqui" HorizontalOptions="CenterAndExpand" FontSize="20"></Label>
+            <Button Margin="10,0,10,0" Background = "White" TextColor="black" Text="Admin" Clicked="PageAdm" ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

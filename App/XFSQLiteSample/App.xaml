@@ -3,6 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFSQLiteSample.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Color x:Key="corbarra">#5effff</Color>
+            <Color x:Key="cortext">#000</Color>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource corbarra}" />
+                <Setter Property="BarTextColor" Value="{StaticResource cortext}" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

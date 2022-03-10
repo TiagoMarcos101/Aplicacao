@@ -3,31 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFSQLiteSample.vc.PageAdm">
     <ContentPage.Content>
-        <StackLayout  BackgroundColor="#3EB489">
-            
-            <Label Margin="0,30,0,0" HorizontalOptions="CenterAndExpand" Text="Aqui tem todos os dados de todos os utilizadores disponiveis"></Label>
-            <Entry TextColor="White" x:Name="nomeUSR" Placeholder="Nome de Utilizador" Margin="0,0,0,0"></Entry>
+        <StackLayout  BackgroundColor="#b7ffff">
+
+            <Label FontSize="25" TextColor="black" Margin="10,0,24,0" HorizontalOptions="CenterAndExpand" Text="Aqui tem todos os dados de todos os utilizadores disponiveis"></Label>
+            <Entry TextColor="black" x:Name="nomeUSR" Placeholder="Nome de Utilizador" Margin="0,0,0,0"></Entry>
 
             <CollectionView x:Name="collectionView" SelectionMode="Single" SelectionChanged="collectionView_SelectionChanged" >
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
-                            <Label TextColor="White" Text="Nome de utilizador" FontSize="Large" />
-                            <Label TextColor="White" Text="{Binding Name}" FontSize="Medium" />
-                            <Label TextColor="White" Text="Quantidade de cozidos" FontSize="Large" />
-                            <Label TextColor="White" Text="{Binding QuantCoz}" FontSize="Medium" />
-                            <Label TextColor="White" Text="Tipo de cozido" FontSize="Large" />
-                            <Label TextColor="White" Text="{Binding TipoCoz}" FontSize="Medium" />
-                            <Label TextColor="White" Text="--Próximo utilizador-" FontSize="Large" />
+                            <Label TextColor="black" Text="Nome de utilizador" FontSize="Large" />
+                            <Label TextColor="black" Text="{Binding Name}" FontSize="Medium" />
+                            <Label TextColor="black" Text="Quantidade de cozidos" FontSize="Large" />
+                            <Label  TextColor="black" Text="{Binding QuantCoz}" FontSize="Medium" />
+                            <Label TextColor="black" Text="Tipo de cozido" FontSize="Large" />
+                            <Label TextColor="black" Text="{Binding TipoCoz}" FontSize="Medium" />
+                            <Label TextColor="black" Text="--Próximo utilizador-" FontSize="Large" />
 
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            <Button Margin="0,0,0,0" Text="Atualizar utilizador" Clicked="Button_Clicked_1"></Button>
-            <Button Margin="0,0,0,0" Text="Apagar utlizador" Clicked="Button_Clicked_2"></Button>
-            <Button Margin="0,0,0,0" Text="Quem tem um cozinhado a cozer" Clicked="Button_Clicked_3"></Button>
-            <Button Margin="0,0,0,0" Text="Quem não tem um cozinhado a cozer" Clicked="Button_Clicked_4"></Button>
+            <Button Background = "White" TextColor="black" Margin="0,0,0,0" Text="Atualizar utilizador" Clicked="Button_Clicked_1"></Button>
+            <Button Background = "White" TextColor="black" Margin="0,0,0,0" Text="Apagar utlizador" Clicked="Button_Clicked_2"></Button>
+            <Button Background = "White" TextColor="black" Margin="0,0,0,0" Text="Quem tem um cozinhado a cozer" Clicked="Button_Clicked_3"></Button>
+            <Button Background = "White" TextColor="black" Margin="0,0,0,0" Text="Quem não tem um cozinhado a cozer" Clicked="Button_Clicked_4"></Button>
 
         </StackLayout>
     </ContentPage.Content>
